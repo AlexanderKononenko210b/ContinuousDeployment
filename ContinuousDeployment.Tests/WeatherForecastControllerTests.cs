@@ -20,7 +20,7 @@ namespace ContinuousDeployment.Tests
             var result = controller.Get();
 
             // Assert
-            Assert.NotEmpty(result);
+            Assert.Empty(result);
         }
     }
 }
